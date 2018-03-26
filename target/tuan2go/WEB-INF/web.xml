@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <welcome-file-list>
+    <welcome-file>center</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>controller</display-name>
+    <servlet-name>controller</servlet-name>
+    <servlet-class>unswbook.controller</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>controller</servlet-name>
+    <url-pattern>/controller</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>postfunction</display-name>
+    <servlet-name>postfunction</servlet-name>
+    <servlet-class>unswbook.postfunction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>postfunction</servlet-name>
+    <url-pattern>/postfunction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>moreInfoService</display-name>
+    <servlet-name>moreInfoService</servlet-name>
+    <servlet-class>unswbook.moreInfoService</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>moreInfoService</servlet-name>
+    <url-pattern>/moreInfoService</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>isGoodService</display-name>
+    <servlet-name>isGoodService</servlet-name>
+    <servlet-class>unswbook.isGoodService</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>isGoodService</servlet-name>
+    <url-pattern>/isGoodService</url-pattern>
+  </servlet-mapping>
+</web-app>
